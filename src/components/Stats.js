@@ -7,7 +7,7 @@ import CustomDropdown from "./CustomDropdown";
 function Stats() {
 
     const url = "https://corona.lmao.ninja/v2/countries/"
-    const [countries, setcountries] = useState([])
+    const [countries, setCountries] = useState([])
     // const [currentLoc, setCurrentLoc] = useState()
 
     // const getGeoInfo = async() => {
@@ -19,7 +19,7 @@ function Stats() {
     const getData = async () => {
         const data = await fetch(url)
         let res = await data.json()
-        setcountries(res)
+        setCountries(res)
     }
 
     useEffect(() => {

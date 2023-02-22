@@ -5,7 +5,6 @@ function SubStats(props) {
 
     return (
 
-
         <div className="card mx-3 my-2" style={{ width: "16rem", backgroundColor: props.backgroundColor, borderRadius: "1rem" }}>
             <div className="card-body">
                 <h5 className="card-title text-uppercase fs-5">{props.displayText}</h5>
@@ -13,7 +12,6 @@ function SubStats(props) {
                 <p className="text-bold fs-3" style={{ color: props.color }}>{props.count}</p>
             </div>
         </div>
-
     )
 }
 

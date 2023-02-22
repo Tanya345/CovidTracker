@@ -34,9 +34,9 @@ const Graphs = () => {
                     </button>
                     <ul className="dropdown-menu" style={{ overflowY: "scroll", height: "41vh", width: "max-content" }}>
                         {/* <li className="mx-3 my-2" role="button">Global</li> */}
-                        {arr.forEach((val) => {
+                        {arr.forEach((value) => {
                             
-                                <li className="mx-3 my-2" role="button" data-name={val} onClick={handleListItem}>{val}</li>
+                                <li className="mx-3 my-2" role="button" data-name={value} onClick={handleListItem}>{value}</li>
                             
                         })}
                     </ul>
